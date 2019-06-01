@@ -12,7 +12,7 @@ Class Config{
           BD_USER = "root",
           BD_SENHA = "",
           BD_BANCO = "hibacar",
-          BD_PREFIX = "hcar";
+          BD_PREFIX = "hcar_";
 
     const EMAIL_HOST = "smtp.gmail.com";
     const EMAIL_USER = "hibacar@gmail.com";

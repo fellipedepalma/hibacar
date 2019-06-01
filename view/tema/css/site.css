@@ -4,16 +4,21 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 .cabecalho{
     width: 100%;
+    height: 75px;
     display: flex;
-    background-color: cadetblue;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+
 }
 .menu-superior-lista{
     width: 100%;
@@ -21,7 +26,14 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .menu-superior-item{
     padding: 1rem;
+}
+.logo-absolute{
+    position: absolute;
+    top:-30%;
+    left: 50%;
+    margin-left: -53px;
 }

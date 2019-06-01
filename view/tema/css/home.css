@@ -1,0 +1,59 @@
+.hero{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../../media/imagens/hero.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulos{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.servicos{
+    width: 100%;
+    background-color: #f4f8fc;
+    padding: 3rem 0;
+}
+.comofunciona{
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: left;
+}
+.card-como-funciona{
+     width: 300px;
+     height: 300px;
+     background-color: lightcoral;
+     margin-bottom: 1.5rem;
+ }
+.cards-serv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+}
+.card-servicos {
+    width: 15%;
+    height: 200px;
+    background-color: #fff;
+    margin: 0.8%;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05), 0 3px 11px rgba(0,0,0,0.03);
+    border-radius: 2px;
+}
+.card-servicos:nth-child(6n){
+    margin-right: 0;
+}
+.card-servicos:nth-child(6n+1){
+    margin-left: 0;
+}
