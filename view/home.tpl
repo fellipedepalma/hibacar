@@ -36,6 +36,3 @@
     </div>
 </section>
 
-<footer class="rodape">
-
-</footer>

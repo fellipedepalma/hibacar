@@ -12,36 +12,35 @@
     <title>Hibacar | Home</title>
 </head>
 <body>
-<header class="cabecalho">
-    <nav class="menu-superior container">
-        <ul class="menu-superior-lista">
-            <li class="menu-superior-item">
-                <a href="{$GET_HOME}">Home</a>
-            </li>
-            <li class="menu-superior-item">
-                <a href="#">Como Funciona</a>
-            </li>
-            <li class="menu-superior-item logo-absolute">
-                <img src="media/imagens/logo_hibacar.png" alt="">
-            </li>
-            <li class="menu-superior-item">
-            </li>
-            <li class="menu-superior-item">
-                <a href="#">Serviços</a>
-            </li>
-            <li class="menu-superior-item">
-                <a href="#">Login</a>
-            </li>
-        </ul>
-        
-    </nav>
-</header>
+    <header class="cabecalho">
+        <nav class="menu-superior container">
+            <ul class="menu-superior-lista">
+                <li class="menu-superior-item">
+                    <a href="{$GET_HOME}">Home</a>
+                </li>
+                <li class="menu-superior-item">
+                    <a href="#">Como Funciona</a>
+                </li>
+                <li class="menu-superior-item logo-absolute">
+                    <img src="media/imagens/logo_hibacar.png" alt="">
+                </li>
+                <li class="menu-superior-item">
+                </li>
+                <li class="menu-superior-item">
+                    <a href="#">Serviços</a>
+                </li>
+                <li class="menu-superior-item">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-{php}
-    Rotas::get_Pagina();
-{/php}
-<footer class="rodape">
+    {php}
+        Rotas::get_Pagina();
+    {/php}
+    <footer class="rodape">
 
-</footer>
+    </footer>
 </body>
 </html>

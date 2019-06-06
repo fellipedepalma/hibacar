@@ -21,6 +21,10 @@ Class Rotas{
         return self::get_SiteHOME() . '/buscaroficina';
     }
 
+    static function pag_OficinaInfo(){
+        return self::get_SiteHOME() . '/oficinainfo';
+    }
+
     static function pag_CadastroOficina(){
         return self::get_SiteHOME() . '/cadastrooficina';
     }

@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d7fc5478-2a3f-471b-9c22-d7156ecb044f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibacar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/imagens/injecao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/imagens/injecao.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/compile/b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88_0.file.home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88_0.file.home.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/buscaroficina.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buscaroficina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/oficina.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/oficina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Rotas.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Rotas.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/buscaroficina.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/buscaroficina.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/compile/d6b658c441c0da1ecda52696933f38525b61d6cf_0.file.index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/d6b658c441c0da1ecda52696933f38525b61d6cf_0.file.index.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/tema/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/tema/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/tema/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/tema/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,29 +23,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/home.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="481">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buscaroficina.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buscaroficina.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oficina.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/oficina.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Login.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3425">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rotas.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Rotas.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -52,33 +110,6 @@
       <file leaf-file-name="arquivo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../arquivo/arquivo.php">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/tema/css/site.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -108,24 +139,25 @@
         <option value="$PROJECT_DIR$/controller/cadastro.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/controller/busca_oficina.php" />
-        <option value="$PROJECT_DIR$/controller/oficina.php" />
         <option value="$PROJECT_DIR$/model/Oficina.php" />
         <option value="$PROJECT_DIR$/model/Oficina.class.php" />
         <option value="$PROJECT_DIR$/controller/cadastrooficina.php" />
-        <option value="$PROJECT_DIR$/controller/buscaroficina.php" />
-        <option value="$PROJECT_DIR$/controller/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/model/BuscarOficina.class.php" />
         <option value="$PROJECT_DIR$/model/Conexao.class.php" />
         <option value="$PROJECT_DIR$/model/Login.class.php" />
-        <option value="$PROJECT_DIR$/view/index.tpl" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/model/Config.class.php" />
         <option value="$PROJECT_DIR$/model/Servicos.class.php" />
-        <option value="$PROJECT_DIR$/model/Rotas.class.php" />
         <option value="$PROJECT_DIR$/view/tema/css/site.css" />
-        <option value="$PROJECT_DIR$/view/home.tpl" />
         <option value="$PROJECT_DIR$/view/tema/css/home.css" />
+        <option value="$PROJECT_DIR$/model/Rotas.class.php" />
+        <option value="$PROJECT_DIR$/controller/login.php" />
+        <option value="$PROJECT_DIR$/controller/buscaroficina.php" />
+        <option value="$PROJECT_DIR$/controller/oficina.php" />
+        <option value="$PROJECT_DIR$/view/buscaroficina.tpl" />
+        <option value="$PROJECT_DIR$/view/home.tpl" />
+        <option value="$PROJECT_DIR$/view/index.tpl" />
       </list>
     </option>
   </component>
@@ -239,18 +271,18 @@
       <workItem from="1559600278155" duration="4991000" />
       <workItem from="1559777491447" duration="1114000" />
       <workItem from="1559850167778" duration="599000" />
-      <workItem from="1559853859555" duration="1466000" />
+      <workItem from="1559853859555" duration="2395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38484000" />
+    <option name="totallyTimeSpent" value="39413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21610738" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -472,9 +504,6 @@
     <entry file="file://$PROJECT_DIR$/view/cadastrooficina.tpl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/login.tpl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -509,62 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/Config.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Login.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4300">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../arquivo/arquivo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Rotas.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/oficina.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -589,17 +566,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/home.tpl">
+    <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="306">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
+    <entry file="file://$PROJECT_DIR$/../arquivo/arquivo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Login.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="3425">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Rotas.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/oficina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
