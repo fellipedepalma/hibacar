@@ -42,18 +42,92 @@
     flex-wrap: wrap;
     align-content: left;
 }
-.card-servicos {
+
+.card-servicos{
     width: 15%;
     height: 200px;
-    background-color: #fff;
-    margin: 0.8%;
-    text-align: center;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05), 0 3px 11px rgba(0,0,0,0.03);
-    border-radius: 2px;
+
+}
+.card-servicos img {
+    width: 200px;
+}
+/*.card-servicos {*/
+    /*width: 15%;*/
+    /*height: 200px;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*margin: 0.8%;*/
+    /*text-align: center;*/
+    /*box-shadow: 0 3px 10px rgba(0,0,0,0.05), 0 3px 11px rgba(0,0,0,0.03);*/
+    /*border-radius: 2px;*/
+    /*position: relative;*/
+    /*!*color: #fff;*!*/
+    /*!*transition: background ease 1s;*!*/
+    /*!*transform: skew(5deg);*!*/
+/*}*/
+/*.card-servicos:nth-child(1){*/
+    /*background-image: url("../../../media/imagens/alinhamento.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(2){*/
+    /*background-image: url("../../../media/imagens/ar-condicionado.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(3){*/
+    /*background-image: url("../../../media/imagens/cambio-edit.png");*/
+/*}*/
+/*.card-servicos:nth-child(4) {*/
+    /*background-image: url("../../../media/imagens/direcao-edit.png");*/
+/*}*/
+/*.card-servicos:nth-child(5){*/
+    /*background-image: url("../../../media/imagens/eletrica.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(6){*/
+    /*background-image: url("../../../media/imagens/escapamento.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(7){*/
+    /*background-image: url("../../../media/imagens/freio.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(8){*/
+    /*background-image: url("../../../media/imagens/funilaria.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(9){*/
+    /*background-image: url("../../../media/imagens/injecao.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(10){*/
+    /*background-image: url("../../../media/imagens/motor-edit.png");*/
+/*}*/
+/*.card-servicos:nth-child(11){*/
+    /*background-image: url("../../../media/imagens/pneu.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(12){*/
+    /*background-image: url("../../../media/imagens/revisao.jpeg");*/
+/*}*/
+/*.card-servicos:nth-child(13){*/
+    /*background-image: url("../../../media/imagens/suspensao.jpg");*/
+/*}*/
+/*.card-servicos:nth-child(14){*/
+    /*background-image: url("../../../media/imagens/trocadeoleo.jpg");*/
+/*}*/
+.card-servicos:hover{
+    background-size: 400px;
+    -webkit-transition: background-size 2s ease-in;
+    transition: background-size 2s ease-in;
+    cursor: pointer;
 }
 .card-servicos:nth-child(6n){
     margin-right: 0;
 }
 .card-servicos:nth-child(6n+1){
     margin-left: 0;
+}
+.card-titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000;
+    /*background-color: rgba(0,0,0,.3);*/
+    /*position:absolute;*/
+    /*bottom: -10px;*/
 }

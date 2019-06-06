@@ -3,7 +3,7 @@
 Class Servicos extends Conexao
 {
 
-    private $serv_id, $serv_nome, $serv_slug;
+    private $serv_id, $serv_nome, $serv_slug, $serv_img;
 
     function __construct()
     {
@@ -26,9 +26,10 @@ Class Servicos extends Conexao
         $i = 1;
         while ($lista = $this->ListarDados()):
             $this->itens[$i] = array(
-                'serv_id' => $lista['serv_id'],
+                'serv_id'   => $lista['serv_id'],
                 'serv_nome' => $lista['serv_nome'],
                 'serv_slug' => $lista['serv_slug'],
+                'serv_img'  => Rotas::get_ImgURL().$lista['serv_img']
                 //'serv_link' => Rotas::pag_Servicos() . '/' . $lista['serv_id'] . '/' . $lista['serv_slug'],
             );
             $i++;
@@ -86,6 +87,12 @@ Class Servicos extends Conexao
         return $this->serv_slug;
     }
 
+    function getServ_img() {
+        return $this->serv_img;
+    }
+
+
+
     //MÉTODOS SET
     function setServ_nome($serv_nome) {
         $this->serv_nome = filter_var($serv_nome, FILTER_SANITIZE_STRING);
@@ -93,5 +100,9 @@ Class Servicos extends Conexao
 
     function setServ_slug($serv_slug) {
         $this->serv_slug = Sistema::GetSlug($serv_slug);
+    }
+
+    function setServ_img($serv_img) {
+        $this->serv_slug = $serv_slug;
     }
 }

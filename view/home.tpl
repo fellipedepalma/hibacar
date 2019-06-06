@@ -27,42 +27,11 @@
         <div class="cards-serv">
             {foreach from=$SERVICOS item=S}
                 <div class="card-servicos">
-                    {$S.serv_nome}
+                    <img src="{$S.serv_img}" alt="{$S.serv_nome}">
+                    {*<h2 class="card-titulo"> {$S.serv_nome}</h2>*}
                 </div>
+
             {/foreach}
-            {*<div class="card-servicos">*}
-                {*Escolha 2*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 3*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 4*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 5*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 6*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 7*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 8*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 9*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 10*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 11*}
-            {*</div>*}
-            {*<div class="card-servicos">*}
-                {*Escolha 12*}
-            {*</div>*}
         </div>
     </div>
 </section>

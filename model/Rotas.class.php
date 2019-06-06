@@ -33,6 +33,14 @@ Class Rotas{
         return self::get_SiteHOME() . '/oficina';
     }
 
+    static function get_ImagemPasta(){
+        return 'media/imagens/';
+    }
+
+    static function get_ImgURL(){
+        return self::get_SiteHOME() . '/' . self::get_ImagemPasta();
+    }
+
     static function get_Pagina(){
         if(isset($_GET['pag'])) {
             $pagina = $_GET['pag'];
