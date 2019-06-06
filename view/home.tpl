@@ -27,8 +27,8 @@
         <div class="cards-serv">
             {foreach from=$SERVICOS item=S}
                 <div class="card-servicos">
-                    <img src="{$S.serv_img}" alt="{$S.serv_nome}">
-                    {*<h2 class="card-titulo"> {$S.serv_nome}</h2>*}
+                    {*<img src="{$S.serv_img}" alt="{$S.serv_nome}">*}
+                    <h2 class="card-titulo"> {$S.serv_nome}</h2>
                 </div>
 
             {/foreach}

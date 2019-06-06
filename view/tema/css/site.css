@@ -6,6 +6,10 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+a{
+    color: #000;
+    text-decoration: black;
+}
 .container{
     width: 1300px;
     margin: 0 auto;
