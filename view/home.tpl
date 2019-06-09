@@ -1,4 +1,11 @@
 <section class="hero">
+    <div class="container">
+        <h2 class="hero-titulo">Encontre aqui as melhores<br>
+            <strong>Oficinas Mecânicas</strong> <br>
+            da capital de SAMPA!</h2>
+        <h3 class="hero-subtitulo">Acesse pelo celular, computador ou tablet, e encontre <br>
+            oficinas de confiança onde estiver e quando quiser!</h3>
+    </div>
 </section>
 
 <section class="comofunciona">

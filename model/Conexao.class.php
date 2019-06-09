@@ -1,7 +1,6 @@
 <?php
 
-Class Conexao extends Config
-{
+Class Conexao extends Config{
     private $host, $user, $senha, $banco;
 
     protected $obj, $itens = array(), $prefix;
@@ -9,8 +8,7 @@ Class Conexao extends Config
     public $paginacao_links, $totalpags, $limite, $inicio;
 
 
-    function __construct()
-    {
+    function __construct(){
         $this->host = self::BD_HOST;
         $this->user = self::BD_USER;
         $this->senha = self::BD_SENHA;

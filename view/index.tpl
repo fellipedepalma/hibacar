@@ -2,10 +2,9 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{$GET_TEMA}/tema/css/site.css">
     <link rel="stylesheet" href="{$GET_TEMA}/tema/css/home.css">
 
@@ -16,10 +15,10 @@
         <nav class="menu-superior container">
             <ul class="menu-superior-lista">
                 <li class="menu-superior-item">
-                    <a href="{$GET_HOME}">Home</a>
+                    <a href="{$GET_HOME}" class="menu-superior-link">Home</a>
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#">Como Funciona</a>
+                    <a href="#" class="menu-superior-link">Como Funciona</a>
                 </li>
                 <li class="menu-superior-item logo-absolute">
                     <img src="media/imagens/logo_hibacar.png" alt="">
@@ -27,10 +26,10 @@
                 <li class="menu-superior-item">
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#">Serviços</a>
+                    <a href="#" class="menu-superior-link">Serviços</a>
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#">Login</a>
+                    <a href="#" class="menu-superior-link">Login</a>
                 </li>
             </ul>
         </nav>

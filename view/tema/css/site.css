@@ -6,10 +6,7 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-a{
-    color: #000;
-    text-decoration: black;
-}
+
 .container{
     width: 1300px;
     margin: 0 auto;
@@ -20,7 +17,7 @@ a{
     height: 75px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgba(255,255,255,0.1);
     position: fixed;
 
 }
@@ -34,6 +31,18 @@ a{
 }
 .menu-superior-item{
     padding: 1rem;
+    color: black;
+    transition: background-color ease 1s;
+}
+.menu-superior-item:hover{
+    background-color: black;
+}
+.menu-superior-link{
+    padding: 1rem;
+    color: black;
+}
+.menu-superior-link:hover{
+    color: white;
 }
 .logo-absolute{
     position: absolute;
