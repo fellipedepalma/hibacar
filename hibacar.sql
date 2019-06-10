@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 06-Jun-2019 às 22:37
+-- Generation Time: 10-Jun-2019 às 14:31
 -- Versão do servidor: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ado_logs`
+-- Database: `hibacar`
 --
 
 -- --------------------------------------------------------
@@ -49,10 +49,10 @@ CREATE TABLE `hcar_oficina` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `ado_selects`
+-- Estrutura da tabela `hcar_servicos`
 --
 
-CREATE TABLE `ado_selects` (
+CREATE TABLE `hcar_servicos` (
   `serv_id` int(11) NOT NULL,
   `serv_nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `serv_slug` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
@@ -60,10 +60,10 @@ CREATE TABLE `ado_selects` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `ado_selects`
+-- Extraindo dados da tabela `hcar_servicos`
 --
 
-INSERT INTO `ado_selects` (`serv_id`, `serv_nome`, `serv_slug`, `serv_img`) VALUES
+INSERT INTO `hcar_servicos` (`serv_id`, `serv_nome`, `serv_slug`, `serv_img`) VALUES
 (1, 'Revisão Preventiva', 'revisao-preventiva', 'revisao.jpg'),
 (2, 'Troca De Óleo', 'troca-de-oleo', 'trocadeoleo.jpg'),
 (3, 'Funilaria', 'funilaria', 'funilaria.jpg'),
@@ -90,9 +90,9 @@ ALTER TABLE `hcar_oficina`
   ADD PRIMARY KEY (`ofc_id`);
 
 --
--- Indexes for table `ado_selects`
+-- Indexes for table `hcar_servicos`
 --
-ALTER TABLE `ado_selects`
+ALTER TABLE `hcar_servicos`
   ADD PRIMARY KEY (`serv_id`);
 
 --
@@ -106,9 +106,9 @@ ALTER TABLE `hcar_oficina`
   MODIFY `ofc_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `ado_selects`
+-- AUTO_INCREMENT for table `hcar_servicos`
 --
-ALTER TABLE `ado_selects`
+ALTER TABLE `hcar_servicos`
   MODIFY `serv_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 

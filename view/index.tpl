@@ -42,8 +42,9 @@
     {php}
         Rotas::get_Pagina();
     {/php}
-    <footer class="rodape">
 
+    <footer class="rodape">
+        RODAPÉ AQUI
     </footer>
     <script src="{$GET_TEMA}/tema/js/scroll.js"></script>
 </body>

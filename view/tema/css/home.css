@@ -151,6 +151,12 @@
     background-color: rgba(0,0,0,0.7);
 }
 
+.oficinas-encontradas{
+    width: 100%;
+    padding: 7rem 0;
+    display: flex;
+}
+
 @media(max-width: 768px){
 
     .hero{

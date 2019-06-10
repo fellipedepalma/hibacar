@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-10 02:53:22
+/* Smarty version 3.1.33, created on 2019-06-10 03:17:08
   from 'C:\xampp\htdocs\hibacar\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cfdaa02314c14_62167205',
+  'unifunc' => 'content_5cfdaf949ab775_56945325',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6b658c441c0da1ecda52696933f38525b61d6cf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\index.tpl',
-      1 => 1560128001,
+      1 => 1560129426,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cfdaa02314c14_62167205 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cfdaf949ab775_56945325 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-BR">
 <head>
@@ -70,8 +70,9 @@ function content_5cfdaa02314c14_62167205 (Smarty_Internal_Template $_smarty_tpl)
     <?php 
         Rotas::get_Pagina();
     ?>
-    <footer class="rodape">
 
+    <footer class="rodape">
+        RODAPÉ AQUI
     </footer>
     <?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>

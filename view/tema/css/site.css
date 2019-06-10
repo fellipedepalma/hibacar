@@ -52,7 +52,7 @@
 .logo-absolute{
     position: absolute;
     top:-30%;
-    left: 50%;
+    left: 51%;
     margin-left: -53px;
     pointer-events:none;
 }
