@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{$GET_TEMA}/tema/css/site.css">
     <link rel="stylesheet" href="{$GET_TEMA}/tema/css/home.css">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
     <title>Hibacar | Home</title>
 </head>
 <body>
@@ -18,15 +20,17 @@
                     <a href="{$GET_HOME}" class="menu-superior-link">Home</a>
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Como Funciona</a>
+                    <a href="#comofunciona" class="menu-superior-link">Como Funciona</a>
                 </li>
                 <li class="menu-superior-item logo-absolute">
-                    <img src="media/imagens/logo_hibacar.png" alt="">
+                    <a href="#" class="menu-superior-link">
+                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" >
+                    </a>
+                </li>
+                <li class="menu-superior-item sumir">
                 </li>
                 <li class="menu-superior-item">
-                </li>
-                <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Serviços</a>
+                    <a href="#servicos" class="menu-superior-link">Serviços</a>
                 </li>
                 <li class="menu-superior-item">
                     <a href="#" class="menu-superior-link">Login</a>
@@ -41,5 +45,6 @@
     <footer class="rodape">
 
     </footer>
+    <script src="{$GET_TEMA}/tema/js/scroll.js"></script>
 </body>
 </html>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-09 22:34:20
+/* Smarty version 3.1.33, created on 2019-06-10 02:53:22
   from 'C:\xampp\htdocs\hibacar\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cfd6d4c722883_81507651',
+  'unifunc' => 'content_5cfdaa02314c14_62167205',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6b658c441c0da1ecda52696933f38525b61d6cf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\index.tpl',
-      1 => 1560112457,
+      1 => 1560128001,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cfd6d4c722883_81507651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cfdaa02314c14_62167205 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-BR">
 <head>
@@ -33,6 +33,10 @@ function content_5cfd6d4c722883_81507651 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/css/home.css">
 
+    <?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"><?php echo '</script'; ?>
+>
+
     <title>Hibacar | Home</title>
 </head>
 <body>
@@ -44,15 +48,17 @@ function content_5cfd6d4c722883_81507651 (Smarty_Internal_Template $_smarty_tpl)
 " class="menu-superior-link">Home</a>
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Como Funciona</a>
+                    <a href="#comofunciona" class="menu-superior-link">Como Funciona</a>
                 </li>
                 <li class="menu-superior-item logo-absolute">
-                    <img src="media/imagens/logo_hibacar.png" alt="">
+                    <a href="#" class="menu-superior-link">
+                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" >
+                    </a>
+                </li>
+                <li class="menu-superior-item sumir">
                 </li>
                 <li class="menu-superior-item">
-                </li>
-                <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Serviços</a>
+                    <a href="#servicos" class="menu-superior-link">Serviços</a>
                 </li>
                 <li class="menu-superior-item">
                     <a href="#" class="menu-superior-link">Login</a>
@@ -67,6 +73,10 @@ function content_5cfd6d4c722883_81507651 (Smarty_Internal_Template $_smarty_tpl)
     <footer class="rodape">
 
     </footer>
+    <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/js/scroll.js"><?php echo '</script'; ?>
+>
 </body>
 </html><?php }
 }
