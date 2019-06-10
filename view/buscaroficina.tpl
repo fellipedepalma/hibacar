@@ -5,8 +5,8 @@
     </div>
 </section>
 
-<section>
+<section class="retorno-oficinas">
     <div class="container">
-        <h2>OFICINAS</h2>
+        <h2 class="titulos">OFICINAS</h2>
     </div>
 </section>

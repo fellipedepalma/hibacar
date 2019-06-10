@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-10 03:20:51
+/* Smarty version 3.1.33, created on 2019-06-10 14:46:21
   from 'C:\xampp\htdocs\hibacar\view\buscaroficina.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cfdb073789b22_78256542',
+  'unifunc' => 'content_5cfe511d9893e9_47584362',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '75ac3c20ff621e001f85624c87bfec0c6a152a07' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\buscaroficina.tpl',
-      1 => 1560129649,
+      1 => 1560170778,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cfdb073789b22_78256542 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cfe511d9893e9_47584362 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="oficinas-encontradas">
     <div class="container">
         <h2 class="titulos">FORAM ENCONTRADAS 55 OFICINAS</h2>
@@ -28,9 +28,9 @@ function content_5cfdb073789b22_78256542 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </section>
 
-<section>
+<section class="retorno-oficinas">
     <div class="container">
-        <h2>OFICINAS</h2>
+        <h2 class="titulos">OFICINAS</h2>
     </div>
 </section><?php }
 }

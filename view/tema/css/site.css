@@ -60,6 +60,27 @@
     opacity: 0;
 }
 
+.rodape{
+    background: black;
+    color: white;
+    padding: 3rem 0;
+}
+.conteudo-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.mapadosite{
+
+}
+.faleconosco{
+    display: flex;
+    flex-direction: column;
+}
+.form-faleconosco{
+    display: flex;
+    flex-flow: column wrap;
+}
+
 @media(max-width: 768px){
     .cabecalho{
         width: 100%;
@@ -83,6 +104,11 @@
     .logo-absolute{
         position: static;
     }
-
+    .conteudo-rodape{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 
 }
