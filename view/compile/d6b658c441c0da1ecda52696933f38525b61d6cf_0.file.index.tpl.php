@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-13 18:28:28
+/* Smarty version 3.1.33, created on 2019-06-16 15:30:09
   from 'C:\xampp\htdocs\hibacar\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d02bffc94bd75_37517885',
+  'unifunc' => 'content_5d068ab13612a2_92643284',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6b658c441c0da1ecda52696933f38525b61d6cf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\index.tpl',
-      1 => 1560461306,
+      1 => 1560709807,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d02bffc94bd75_37517885 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d068ab13612a2_92643284 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-BR">
 <head>
@@ -103,26 +103,28 @@ function content_5d02bffc94bd75_37517885 (Smarty_Internal_Template $_smarty_tpl)
         <div class="container">
             <div class="conteudo-rodape">
                 <section class="mapadosite">
-                    <h2>Mapa do Site</h2>
+                    <h2 class="titulo-rodape">Mapa do Site</h2>
                     <nav>
                         <ul>
-                            <li>Home</li>
-                            <li>Quem Somos</li>
-                            <li>Como Funciona</li>
-                            <li>Serviços</li>
-                            <li>Login</li>
+                            <li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+">Home</a></li>
+                            <li><a href="">Quem Somos</a></li>
+                            <li><a href="">Como Funciona</a></li>
+                            <li><a href="">Serviços</a></li>
+                            <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_LOGIN']->value;?>
+">Login</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section class="contatos">
-                    <h2>Contatos</h2>
+                    <h2 class="titulo-rodape">Contatos</h2>
                     <p>+55 11 9 9999-8888</p>
                     <p>contato@hibacar.com.br</p>
                     <p>Av. Eng. Eusébio Stevaux, 823<br>
                        Santo Amaro, São Paulo - SP, 04696-000</p>
                 </section>
                 <section class="faleconosco">
-                    <h2>Fale Conosco</h2>
+                    <h2 class="titulo-rodape">Fale Conosco</h2>
                     <form action="" method="post" class="form-faleconosco">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome">

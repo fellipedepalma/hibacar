@@ -69,26 +69,26 @@
         <div class="container">
             <div class="conteudo-rodape">
                 <section class="mapadosite">
-                    <h2>Mapa do Site</h2>
+                    <h2 class="titulo-rodape">Mapa do Site</h2>
                     <nav>
                         <ul>
-                            <li>Home</li>
-                            <li>Quem Somos</li>
-                            <li>Como Funciona</li>
-                            <li>Serviços</li>
-                            <li>Login</li>
+                            <li><a href="{$GET_HOME}">Home</a></li>
+                            <li><a href="">Quem Somos</a></li>
+                            <li><a href="">Como Funciona</a></li>
+                            <li><a href="">Serviços</a></li>
+                            <li><a href="{$PAG_LOGIN}">Login</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section class="contatos">
-                    <h2>Contatos</h2>
+                    <h2 class="titulo-rodape">Contatos</h2>
                     <p>+55 11 9 9999-8888</p>
                     <p>contato@hibacar.com.br</p>
                     <p>Av. Eng. Eusébio Stevaux, 823<br>
                        Santo Amaro, São Paulo - SP, 04696-000</p>
                 </section>
                 <section class="faleconosco">
-                    <h2>Fale Conosco</h2>
+                    <h2 class="titulo-rodape">Fale Conosco</h2>
                     <form action="" method="post" class="form-faleconosco">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome">

@@ -9,7 +9,7 @@
         </div>
     </div>
 </section>
-
+<section class="skew"></section>
 <section class="comofunciona" id="comofunciona">
     <div class="container">
         <h2 class="titulos">COMO FUNCIONA</h2>
@@ -31,7 +31,7 @@
         </div>
     </div>
 </section>
-
+<section class="skew skew-cor"></section>
 <section class="servicos" id="servicos">
     <div class="container">
         <h2 class="titulos">SERVIÇOS</h2>

@@ -16,10 +16,39 @@
 <html>
 <body>
 <div id="map"></div>
+
+<script src="{$GET_TEMA}/tema/js/maps.js">
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh0uqpKR-_LGSSKMbb-WJaL7FGxt564iI&callback=initMap">
+</script>
+
+
+
 <!-- Maps API Javascript -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh0uqpKR-_LGSSKMbb-WJaL7FGxt564iI"></script>
 
-<script src="{$GET_TEMA}/tema/js/mapa.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{*<script src="{$GET_TEMA}/tema/js/mapa.js"></script>*}
 
 {*<script>*}
     {*var customLabel = {*}

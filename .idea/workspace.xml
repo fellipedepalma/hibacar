@@ -2,46 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7fc5478-2a3f-471b-9c22-d7156ecb044f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/buscaroficina.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conexao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/logoff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/oficinas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultado.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/oficina.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/oficinas.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/tema/js/maps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/buscaroficina.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buscaroficina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/oficina.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/oficina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/BuscarOficina.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Markers.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Config.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Config.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Login.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Login.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Oficina.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Oficina.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Rotas.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Rotas.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/buscaroficina.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/buscaroficina.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/compile/75ac3c20ff621e001f85624c87bfec0c6a152a07_0.file.buscaroficina.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/75ac3c20ff621e001f85624c87bfec0c6a152a07_0.file.buscaroficina.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/compile/b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88_0.file.home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88_0.file.home.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/compile/b7538232ef6b7b1ae04b3f5a218dba56344bce40_0.file.login.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/b7538232ef6b7b1ae04b3f5a218dba56344bce40_0.file.login.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/compile/d6b658c441c0da1ecda52696933f38525b61d6cf_0.file.index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/compile/d6b658c441c0da1ecda52696933f38525b61d6cf_0.file.index.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/login.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/tema/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/tema/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/tema/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/tema/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/tema/js/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/tema/js/scroll.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,44 +24,61 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="buscaroficina.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buscaroficina.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapa.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/tema/js/mapa.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="buscaroficina.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1150">
+                  <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/view/tema/css/site.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="126" column="35" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/view/index.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="181">
+                  <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="home.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/view/home.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2829">
+                  <caret line="175" column="29" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,7 +119,6 @@
         <option value="$PROJECT_DIR$/model/Conexao.class.php" />
         <option value="$PROJECT_DIR$/model/BuscarOficina.class.php" />
         <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/view/tema/css/home.css" />
         <option value="$PROJECT_DIR$/controller/logoff.php" />
         <option value="$PROJECT_DIR$/controller/login.php" />
         <option value="$PROJECT_DIR$/model/Login.class.php" />
@@ -140,7 +126,6 @@
         <option value="$PROJECT_DIR$/view/login.tpl" />
         <option value="$PROJECT_DIR$/controller/oficina.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/view/index.tpl" />
         <option value="$PROJECT_DIR$/view/oficina.tpl" />
         <option value="$PROJECT_DIR$/model/Markers.class.php" />
         <option value="$PROJECT_DIR$/buscaroficina.php" />
@@ -150,13 +135,17 @@
         <option value="$PROJECT_DIR$/model/Rotas.class.php" />
         <option value="$PROJECT_DIR$/view/oficinas.tpl" />
         <option value="$PROJECT_DIR$/view/tema/js/scroll.js" />
-        <option value="$PROJECT_DIR$/view/tema/css/site.css" />
-        <option value="$PROJECT_DIR$/view/home.tpl" />
         <option value="$PROJECT_DIR$/conexao.php" />
         <option value="$PROJECT_DIR$/resultado.php" />
-        <option value="$PROJECT_DIR$/view/buscaroficina.tpl" />
         <option value="$PROJECT_DIR$/controller/buscaroficina.php" />
         <option value="$PROJECT_DIR$/view/tema/js/mapa.js" />
+        <option value="$PROJECT_DIR$/view/buscaroficina.tpl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa15584.12173/index.html" />
+        <option value="$PROJECT_DIR$/view/tema/js/maps.js" />
+        <option value="$PROJECT_DIR$/view/home.tpl" />
+        <option value="$PROJECT_DIR$/view/tema/css/home.css" />
+        <option value="$PROJECT_DIR$/view/index.tpl" />
+        <option value="$PROJECT_DIR$/view/tema/css/site.css" />
       </list>
     </option>
   </component>
@@ -176,9 +165,9 @@
       <path value="$PROJECT_DIR$/lib/phpmailer/phpmailer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1147" />
-    <option name="width" value="780" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -280,15 +269,15 @@
       <workItem from="1559853859555" duration="7072000" />
       <workItem from="1559877758281" duration="69000" />
       <workItem from="1560102347638" duration="30384000" />
-      <workItem from="1560375047392" duration="26054000" />
+      <workItem from="1560375047392" duration="34051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100597000" />
+    <option name="totallyTimeSpent" value="108594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="918" y="0" width="624" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,7 +286,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2393617" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23825504" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -340,20 +329,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/tema/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/Template.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -488,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="187" column="23" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/logoff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -579,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/tema/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/oficinas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -597,20 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -635,31 +582,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/tema/js/mapa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/tema/js/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa15584.12173/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/tema/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2829">
+          <caret line="175" column="29" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="206">
           <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/buscaroficina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="1150">
           <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/buscaroficina.tpl">
+    <entry file="file://$PROJECT_DIR$/view/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="67" />
+        <state relative-caret-position="181">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/tema/js/mapa.js">
+    <entry file="file://$PROJECT_DIR$/view/tema/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        <state relative-caret-position="425">
+          <caret line="126" column="35" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
         </state>
       </provider>
     </entry>

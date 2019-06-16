@@ -97,24 +97,41 @@ a{
 }
 
 .rodape{
+    width: 100%;
     background: black;
     color: white;
     padding: 3rem 0;
+    display: flex;
 }
 .conteudo-rodape{
     display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
 }
+.titulo-rodape{
+    font-weight: normal;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 0.5rem;
+}
 .mapadosite{
-    background: #aa06ee;
+    padding: 1rem;
+    width: 30%;
+    background: rgba(170, 6, 238, 0.5);
 }
 .contatos{
-    background: #aa06ee;
-}
-.faleconosco{
+    padding: 1rem;
+    width: 30%;
+    background: rgba(170, 6, 238, 0.5);
     display: flex;
     flex-direction: column;
-    background: #aa06ee;
+    justify-content: space-between;
+}
+.faleconosco{
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(170, 6, 238, 0.5);
 }
 .form-faleconosco{
     display: flex;

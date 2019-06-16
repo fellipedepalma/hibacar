@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 10-Jun-2019 às 14:31
+-- Generation Time: 16-Jun-2019 às 20:33
 -- Versão do servidor: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -25,6 +25,37 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `hcar_ofc_serv`
+--
+
+CREATE TABLE `hcar_ofc_serv` (
+  `id_ofc_serv` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
+  `serv_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Extraindo dados da tabela `hcar_ofc_serv`
+--
+
+INSERT INTO `hcar_ofc_serv` (`id_ofc_serv`, `id`, `serv_id`) VALUES
+(1, 1, 1),
+(2, 1, 2),
+(3, 1, 3),
+(4, 1, 4),
+(5, 1, 5),
+(6, 1, 6),
+(7, 2, 1),
+(8, 2, 2),
+(9, 2, 3),
+(10, 2, 4),
+(11, 2, 10),
+(12, 2, 11),
+(13, 4, 7);
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `hcar_oficina`
 --
 
@@ -36,15 +67,28 @@ CREATE TABLE `hcar_oficina` (
   `ofc_email` varchar(80) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_pass` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_telefone` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
-  `ofc_celular` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `ofc_celular` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_site` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_endereco` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_numero` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_complemento` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_bairro` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_cidade` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `ofc_uf` varchar(2) COLLATE utf8_unicode_ci NOT NULL
+  `ofc_uf` varchar(2) COLLATE utf8_unicode_ci NOT NULL,
+  `lat` float(10,6) NOT NULL,
+  `lng` float(10,6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Extraindo dados da tabela `hcar_oficina`
+--
+
+INSERT INTO `hcar_oficina` (`ofc_id`, `ofc_nome`, `ofc_descricao`, `ofc_logo`, `ofc_email`, `ofc_pass`, `ofc_telefone`, `ofc_celular`, `ofc_site`, `ofc_endereco`, `ofc_numero`, `ofc_complemento`, `ofc_bairro`, `ofc_cidade`, `ofc_uf`, `lat`, `lng`) VALUES
+(1, 'Oficina Senac', 'Realizamos trabalhos como: ...', '', 'oficinasenac@hibacar.com.br', '123456', '1155556666', '1198888777', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', -23.669222, -46.699471),
+(2, 'Oficina Hibacar', 'Realizamos trabalhos como: ...', '', 'hibacar@hibacar.com.br', 'hibacar', '1155554444', '1199999888', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', -23.680651, -46.698891),
+(3, 'Oficina Murilo\'s Car', 'Blá Blá Blá', '-', 'murilo@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', -23.671085, -46.687321),
+(4, 'Oficina Jean\'s Car', 'Blá Blá Blá', '-', 'jean@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', -23.671085, -46.687321),
+(5, '', '		  \r\n		  ', '', 'dfellipe7@gmail.com', 'helo0608@', '', '', '', 'Senac AclimaÃ§Ã£o', '', '', '', '', 'AC', -23.568642, -46.636162);
 
 -- --------------------------------------------------------
 
@@ -84,6 +128,12 @@ INSERT INTO `hcar_servicos` (`serv_id`, `serv_nome`, `serv_slug`, `serv_img`) VA
 --
 
 --
+-- Indexes for table `hcar_ofc_serv`
+--
+ALTER TABLE `hcar_ofc_serv`
+  ADD PRIMARY KEY (`id_ofc_serv`);
+
+--
 -- Indexes for table `hcar_oficina`
 --
 ALTER TABLE `hcar_oficina`
@@ -100,10 +150,16 @@ ALTER TABLE `hcar_servicos`
 --
 
 --
+-- AUTO_INCREMENT for table `hcar_ofc_serv`
+--
+ALTER TABLE `hcar_ofc_serv`
+  MODIFY `id_ofc_serv` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
 -- AUTO_INCREMENT for table `hcar_oficina`
 --
 ALTER TABLE `hcar_oficina`
-  MODIFY `ofc_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ofc_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `hcar_servicos`

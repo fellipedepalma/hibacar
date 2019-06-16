@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-15 20:12:46
+/* Smarty version 3.1.33, created on 2019-06-16 14:30:15
   from 'C:\xampp\htdocs\hibacar\view\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d057b6e4ea031_12862071',
+  'unifunc' => 'content_5d067ca71f8a96_42939282',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\home.tpl',
-      1 => 1560640364,
+      1 => 1560706213,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d057b6e4ea031_12862071 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d067ca71f8a96_42939282 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="hero">
     <div class="container">
         <div class="hero-titulos">
@@ -32,7 +32,7 @@ function content_5d057b6e4ea031_12862071 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </section>
-
+<section class="skew"></section>
 <section class="comofunciona" id="comofunciona">
     <div class="container">
         <h2 class="titulos">COMO FUNCIONA</h2>
@@ -54,7 +54,7 @@ function content_5d057b6e4ea031_12862071 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </section>
-
+<section class="skew skew-cor"></section>
 <section class="servicos" id="servicos">
     <div class="container">
         <h2 class="titulos">SERVIÇOS</h2>
