@@ -24,7 +24,7 @@
                 </li>
                 <li class="menu-superior-item logo-absolute">
                     <a href="#" class="menu-superior-link">
-                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" >
+                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" class="logo-hb">
                     </a>
                 </li>
                 <li class="menu-superior-item sumir">
@@ -32,9 +32,31 @@
                 <li class="menu-superior-item">
                     <a href="#servicos" class="menu-superior-link">Serviços</a>
                 </li>
-                <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Login</a>
+                {if $LOGADO == false}
+                <li class="menu-superior-item menu-superior-item_relativo">
+                    <a href="{$PAG_LOGIN}" class="menu-superior-link">Login</a>
+                    <ul class="submenu-lista">
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="{$PAG_LOGIN}">Login</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="{$PAG_CADASTRO}">Cadastrar</a>
+                        </li>
+                    </ul>
                 </li>
+                {/if}
+                {if $LOGADO == true}
+                    <li class="menu-superior-item menu-superior-item_relativo">
+                    <a class="menu-superior-link ">Olá: {$OFC}</a>
+                    <ul class="submenu-lista">
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="{$PAG_CONTA}">Minha Conta</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="{$PAG_LOGOFF}">Sair</a>
+                        </li>
+                    </ul>
+                    </li>{/if}
             </ul>
         </nav>
     </header>

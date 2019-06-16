@@ -28,6 +28,8 @@ class ComposerStaticInit47d0ad702528ed0c6c35f4de8a71cf4b
         'Conexao' => __DIR__ . '/../..' . '/model/Conexao.class.php',
         'Config' => __DIR__ . '/../..' . '/model/Config.class.php',
         'Login' => __DIR__ . '/../..' . '/model/Login.class.php',
+        'Markers' => __DIR__ . '/../..' . '/model/Markers.class.php',
+        'Oficina' => __DIR__ . '/../..' . '/model/Oficina.class.php',
         'Rotas' => __DIR__ . '/../..' . '/model/Rotas.class.php',
         'Servicos' => __DIR__ . '/../..' . '/model/Servicos.class.php',
         'Template' => __DIR__ . '/../..' . '/model/Template.class.php',

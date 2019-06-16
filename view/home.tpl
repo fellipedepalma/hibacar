@@ -39,10 +39,14 @@
             {foreach from=$SERVICOS item=S}
                 <div class="card-servicos">
                     {*<img src="{$S.serv_img}" alt="{$S.serv_nome}">*}
-                    <h2 class="card-titulo"> {$S.serv_nome}</h2>
+                    <form action="buscaroficina.php" method="get">
+                        <button type="submit"><h2 class="card-titulo"> {$S.serv_nome}</h2></button>
+                        <input type="hidden" value="{$S.serv_id}" name="servico">
+                    </form>
                 </div>
 
             {/foreach}
+
         </div>
     </div>
 </section>

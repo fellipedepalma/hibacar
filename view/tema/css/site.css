@@ -6,6 +6,9 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+a{
+    color: black;
+}
 
 .container{
     width: 1300px;
@@ -19,11 +22,12 @@
     align-items: center;
     background-color: rgba(255,255,255,0.1);
     position: fixed;
-    transition: background-color linear 1s;
+    transition: linear 1s;
+    top:0;
 }
 .cabecalho--transparente{
     background-color: rgba(255,255,255,0.9);
-    transition: background-color linear 1s;
+    transition: linear 1s;
     height: 50px;
 }
 .menu-superior-lista{
@@ -41,10 +45,10 @@
 }
 .menu-superior-item:hover{
     background-color: black;
+    color: white;
 }
 .menu-superior-link{
     padding: 1rem;
-    color: black;
 }
 .menu-superior-link:hover{
     color: white;
@@ -55,6 +59,38 @@
     left: 51%;
     margin-left: -53px;
     pointer-events:none;
+}
+.menu-superior-item_relativo{
+    position: relative;
+}
+.menu-superior-item_relativo:hover .submenu-lista{
+    display: block;
+    transition: background-color .5s;
+}
+.submenu-lista{
+    position: absolute;
+    display: none;
+    min-width: 180px;
+    background-color: #aa06ee;
+    padding: .5rem;
+    left: 0;
+    top: 3rem;
+}
+.submenu-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.submenu-link {
+    color: #fff;
+    padding: 1rem 0 ;
+
+}
+.submenu-link:hover{
+    color: #fff;
+    background-color: #000;
+    transition: background-color .6s;
 }
 .sumir{
     opacity: 0;
@@ -70,17 +106,43 @@
     justify-content: space-between;
 }
 .mapadosite{
-
+    background: #aa06ee;
+}
+.contatos{
+    background: #aa06ee;
 }
 .faleconosco{
     display: flex;
     flex-direction: column;
+    background: #aa06ee;
 }
 .form-faleconosco{
     display: flex;
     flex-flow: column wrap;
+    background: #aa06ee;
+}
+#map {
+    height: 100%;
 }
 
+.botao{
+    padding: 1rem;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.botao-normal{
+    background-color: #aa06ee;
+    color: #fff;
+    margin: 1rem 0;
+}
+.botao-normal:hover{
+    border: 2px solid #aa06ee;
+    background-color: #fff;
+    color: #aa06ee;
+}
 @media(max-width: 768px){
     .cabecalho{
         width: 100%;

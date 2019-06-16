@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-10 15:05:35
+/* Smarty version 3.1.33, created on 2019-06-13 18:28:28
   from 'C:\xampp\htdocs\hibacar\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cfe559f1d5e57_84403380',
+  'unifunc' => 'content_5d02bffc94bd75_37517885',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6b658c441c0da1ecda52696933f38525b61d6cf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\index.tpl',
-      1 => 1560171933,
+      1 => 1560461306,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cfe559f1d5e57_84403380 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d02bffc94bd75_37517885 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-BR">
 <head>
@@ -52,7 +52,7 @@ function content_5cfe559f1d5e57_84403380 (Smarty_Internal_Template $_smarty_tpl)
                 </li>
                 <li class="menu-superior-item logo-absolute">
                     <a href="#" class="menu-superior-link">
-                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" >
+                        <img src="media/imagens/logo_hibacar.png" alt="Logo Hibacar" class="logo-hb">
                     </a>
                 </li>
                 <li class="menu-superior-item sumir">
@@ -60,9 +60,37 @@ function content_5cfe559f1d5e57_84403380 (Smarty_Internal_Template $_smarty_tpl)
                 <li class="menu-superior-item">
                     <a href="#servicos" class="menu-superior-link">Serviços</a>
                 </li>
-                <li class="menu-superior-item">
-                    <a href="#" class="menu-superior-link">Login</a>
+                <?php if ($_smarty_tpl->tpl_vars['LOGADO']->value == false) {?>
+                <li class="menu-superior-item menu-superior-item_relativo">
+                    <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_LOGIN']->value;?>
+" class="menu-superior-link">Login</a>
+                    <ul class="submenu-lista">
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="<?php echo $_smarty_tpl->tpl_vars['PAG_LOGIN']->value;?>
+">Login</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CADASTRO']->value;?>
+">Cadastrar</a>
+                        </li>
+                    </ul>
                 </li>
+                <?php }?>
+                <?php if ($_smarty_tpl->tpl_vars['LOGADO']->value == true) {?>
+                    <li class="menu-superior-item menu-superior-item_relativo">
+                    <a class="menu-superior-link ">Olá: <?php echo $_smarty_tpl->tpl_vars['OFC']->value;?>
+</a>
+                    <ul class="submenu-lista">
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTA']->value;?>
+">Minha Conta</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a class="submenu-link" href="<?php echo $_smarty_tpl->tpl_vars['PAG_LOGOFF']->value;?>
+">Sair</a>
+                        </li>
+                    </ul>
+                    </li><?php }?>
             </ul>
         </nav>
     </header>

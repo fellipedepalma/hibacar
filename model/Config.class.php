@@ -9,15 +9,15 @@ Class Config{
     // INFO BANCO DE DADOS
 
     const BD_HOST = "localhost",
-          BD_USER = "root",
-          BD_SENHA = "",
-          BD_BANCO = "hibacar",
-          BD_PREFIX = "hcar_";
+    BD_USER = "root",
+    BD_SENHA = "",
+    BD_BANCO = "hibacar",
+    BD_PREFIX = "hcar_";
 
     const EMAIL_HOST = "smtp.gmail.com";
-    const EMAIL_USER = "hibacar@gmail.com";
-    const EMAIL_NOME = "HibaCar";
-    const EMAIL_SENHA = "criarsenha";
+    const EMAIL_USER = "hibacar.pi5@gmail.com";
+    const EMAIL_NOME = "HibaCAR";
+    const EMAIL_SENHA = "dfjmhibacar2019";
     const EMAIL_PORTA = 587;
     const EMAIL_SMTPAUTH = true;
     const EMAIL_SMTPSECURE = "tls";

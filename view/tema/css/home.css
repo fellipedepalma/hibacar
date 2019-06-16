@@ -156,6 +156,44 @@
     padding: 7rem 0;
     display: flex;
 }
+.login-oficinas{
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F1F3;
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario-login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 3px;
+
+}
+.titulo-login{
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+.campo-login{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #000000;
+    margin: 0.5rem 0 1rem 0;
+}
+
 
 @media(max-width: 768px){
 

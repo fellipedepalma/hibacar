@@ -25,12 +25,20 @@ Class Rotas{
         return self::get_SiteHOME() . '/oficinainfo';
     }
 
+    static function pag_Oficinas(){
+        return self::get_SiteHOME() . '/oficinas';
+    }
+
     static function pag_CadastroOficina(){
         return self::get_SiteHOME() . '/cadastrooficina';
     }
 
     static function pag_Login(){
         return self::get_SiteHOME() . '/login';
+    }
+
+    static function pag_Logoff(){
+        return self::get_SiteHOME() . '/logoff';
     }
 
     static function pag_Oficina(){
@@ -43,6 +51,13 @@ Class Rotas{
 
     static function get_ImgURL(){
         return self::get_SiteHOME() . '/' . self::get_ImagemPasta();
+    }
+
+    // MÉTODO REDIRECIOMANETO
+    static function Redirecionar($tempo, $pagina){
+        $url = '<meta http-equiv="refresh" content="'.$tempo.';
+      url='.$pagina.'">';
+        echo $url;
     }
 
     static function get_Pagina(){

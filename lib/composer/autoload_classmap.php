@@ -9,6 +9,8 @@ return array(
     'Conexao' => $baseDir . '/model/Conexao.class.php',
     'Config' => $baseDir . '/model/Config.class.php',
     'Login' => $baseDir . '/model/Login.class.php',
+    'Markers' => $baseDir . '/model/Markers.class.php',
+    'Oficina' => $baseDir . '/model/Oficina.class.php',
     'Rotas' => $baseDir . '/model/Rotas.class.php',
     'Servicos' => $baseDir . '/model/Servicos.class.php',
     'Template' => $baseDir . '/model/Template.class.php',

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-10 02:47:22
+/* Smarty version 3.1.33, created on 2019-06-15 20:12:46
   from 'C:\xampp\htdocs\hibacar\view\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cfda89a3f0230_97370130',
+  'unifunc' => 'content_5d057b6e4ea031_12862071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\home.tpl',
-      1 => 1560127640,
+      1 => 1560640364,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cfda89a3f0230_97370130 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d057b6e4ea031_12862071 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="hero">
     <div class="container">
         <div class="hero-titulos">
@@ -65,14 +65,19 @@ if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['S']->value) {
 ?>
                 <div class="card-servicos">
-                                        <h2 class="card-titulo"> <?php echo $_smarty_tpl->tpl_vars['S']->value['serv_nome'];?>
-</h2>
+                                        <form action="buscaroficina.php" method="get">
+                        <button type="submit"><h2 class="card-titulo"> <?php echo $_smarty_tpl->tpl_vars['S']->value['serv_nome'];?>
+</h2></button>
+                        <input type="hidden" value="<?php echo $_smarty_tpl->tpl_vars['S']->value['serv_id'];?>
+" name="servico">
+                    </form>
                 </div>
 
             <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
+
         </div>
     </div>
 </section>
