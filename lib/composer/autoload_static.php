@@ -27,6 +27,7 @@ class ComposerStaticInit47d0ad702528ed0c6c35f4de8a71cf4b
     public static $classMap = array (
         'Conexao' => __DIR__ . '/../..' . '/model/Conexao.class.php',
         'Config' => __DIR__ . '/../..' . '/model/Config.class.php',
+        'EnviarEmail' => __DIR__ . '/../..' . '/model/EnviarEmail.class.php',
         'Login' => __DIR__ . '/../..' . '/model/Login.class.php',
         'Markers' => __DIR__ . '/../..' . '/model/Markers.class.php',
         'Oficina' => __DIR__ . '/../..' . '/model/Oficina.class.php',

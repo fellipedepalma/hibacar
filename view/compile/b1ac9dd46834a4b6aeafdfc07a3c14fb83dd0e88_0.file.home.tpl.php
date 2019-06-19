@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-16 14:30:15
+/* Smarty version 3.1.33, created on 2019-06-18 18:35:01
   from 'C:\xampp\htdocs\hibacar\view\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d067ca71f8a96_42939282',
+  'unifunc' => 'content_5d0959057a6703_58453683',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b1ac9dd46834a4b6aeafdfc07a3c14fb83dd0e88' => 
     array (
       0 => 'C:\\xampp\\htdocs\\hibacar\\view\\home.tpl',
-      1 => 1560706213,
+      1 => 1560893699,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d067ca71f8a96_42939282 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d0959057a6703_58453683 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="hero">
     <div class="container">
         <div class="hero-titulos">
@@ -39,17 +39,17 @@ function content_5d067ca71f8a96_42939282 (Smarty_Internal_Template $_smarty_tpl)
         <div class="cards">
             <div class="card-como-funciona">
                 <h2>PASSO 1</h2>
-                Selecione o Serviço abaixo.
+                Escolha o Serviço abaixo.
             </div>
             <img src="media/imagens/arrow-right.svg" alt="Setas" class="seta">
             <div class="card-como-funciona">
                 <h2>PASSO 2</h2>
-                Card 2
+                Será apresentado um mapa com as oficinas mais próximas.
             </div>
             <img src="media/imagens/arrow-right.svg" alt="Setas" class="seta">
             <div class="card-como-funciona">
                 <h2>PASSO 3</h2>
-                Card 3
+                Agende o serviço e avalie a oficina.
             </div>
         </div>
     </div>
@@ -66,18 +66,18 @@ foreach ($_from as $_smarty_tpl->tpl_vars['S']->value) {
 ?>
                 <div class="card-servicos">
                                         <form action="buscaroficina.php" method="get">
-                        <button type="submit"><h2 class="card-titulo"> <?php echo $_smarty_tpl->tpl_vars['S']->value['serv_nome'];?>
-</h2></button>
                         <input type="hidden" value="<?php echo $_smarty_tpl->tpl_vars['S']->value['serv_id'];?>
 " name="servico">
+                        <button type="submit" class="card-titulo">
+                            <h2 ><?php echo $_smarty_tpl->tpl_vars['S']->value['serv_nome'];?>
+</h2>
+                        </button>
                     </form>
                 </div>
-
             <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-
         </div>
     </div>
 </section>

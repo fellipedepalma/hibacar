@@ -25,12 +25,16 @@ Class Rotas{
         return self::get_SiteHOME() . '/oficinainfo';
     }
 
+    static function pag_OficinaDados(){
+        return self::get_SiteHOME() . '/oficina-dados';
+    }
+
     static function pag_Oficinas(){
         return self::get_SiteHOME() . '/oficinas';
     }
 
     static function pag_CadastroOficina(){
-        return self::get_SiteHOME() . '/cadastrooficina';
+        return self::get_SiteHOME() . '/cadastro-oficina';
     }
 
     static function pag_Login(){
@@ -39,6 +43,10 @@ Class Rotas{
 
     static function pag_Logoff(){
         return self::get_SiteHOME() . '/logoff';
+    }
+
+    static function pag_OficinaRecovery(){
+        return self::get_SiteHOME() . '/oficina-recovery';
     }
 
     static function pag_Oficina(){

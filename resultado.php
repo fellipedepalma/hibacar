@@ -22,7 +22,7 @@ INNER JOIN hcar_oficina
 ON hcar_ofc_serv.id = hcar_oficina.ofc_id
 INNER JOIN hcar_servicos
 ON hcar_ofc_serv.serv_id = hcar_servicos.serv_id
-WHERE hcar_servicos.serv_id = 7;';
+WHERE hcar_servicos.serv_id = 2;';
 
 $resultado_markers = mysqli_query($conn, $result_markers);
 

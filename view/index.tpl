@@ -10,6 +10,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+    <script src="https://kit.fontawesome.com/ea13fbeaa1.js"></script>
+
     <title>Hibacar | Home</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
                     <a href="{$GET_HOME}" class="menu-superior-link">Home</a>
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#comofunciona" class="menu-superior-link">Como Funciona</a>
+                    <a href="{$GET_HOME}#comofunciona" class="menu-superior-link">Como Funciona</a>
                 </li>
                 <li class="menu-superior-item logo-absolute">
                     <a href="#" class="menu-superior-link">
@@ -30,7 +32,7 @@
                 <li class="menu-superior-item sumir">
                 </li>
                 <li class="menu-superior-item">
-                    <a href="#servicos" class="menu-superior-link">Serviços</a>
+                    <a href="{$GET_HOME}#servicos" class="menu-superior-link">Serviços</a>
                 </li>
                 {if $LOGADO == false}
                 <li class="menu-superior-item menu-superior-item_relativo">
@@ -40,17 +42,17 @@
                             <a class="submenu-link" href="{$PAG_LOGIN}">Login</a>
                         </li>
                         <li class="submenu-item">
-                            <a class="submenu-link" href="{$PAG_CADASTRO}">Cadastrar</a>
+                            <a class="submenu-link" href="{$PAG_CADASTROOFC}">Cadastrar</a>
                         </li>
                     </ul>
                 </li>
                 {/if}
                 {if $LOGADO == true}
                     <li class="menu-superior-item menu-superior-item_relativo">
-                    <a class="menu-superior-link ">Olá: {$OFC}</a>
+                    <a class="menu-superior-link ">{$OFC}</a>
                     <ul class="submenu-lista">
                         <li class="submenu-item">
-                            <a class="submenu-link" href="{$PAG_CONTA}">Minha Conta</a>
+                            <a class="submenu-link" href="{$PAG_LOGIN}">Minha Conta</a>
                         </li>
                         <li class="submenu-item">
                             <a class="submenu-link" href="{$PAG_LOGOFF}">Sair</a>
@@ -82,13 +84,14 @@
                 </section>
                 <section class="contatos">
                     <h2 class="titulo-rodape">Contatos</h2>
-                    <p>+55 11 9 9999-8888</p>
-                    <p>contato@hibacar.com.br</p>
-                    <p>Av. Eng. Eusébio Stevaux, 823<br>
+                    <p><i class="fas fa-mobile-alt"></i> +55 11 9 9999-8888</p>
+                    <p><i class="fas fa-envelope"></i> contato@hibacar.com.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Eng. Eusébio Stevaux, 823<br>
                        Santo Amaro, São Paulo - SP, 04696-000</p>
                 </section>
                 <section class="faleconosco">
                     <h2 class="titulo-rodape">Fale Conosco</h2>
+                    <h3><?php echo $_SESSION['sucess']?></h3>
                     <form action="" method="post" class="form-faleconosco">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome">
@@ -96,6 +99,7 @@
                         <input type="email" name="email" id="email">
                         <label for="mensagem">Mensagem</label>
                         <textarea name="mensagem" id="mensagem"></textarea>
+                        <button type="submit" name="enviar" class="botao botao-normal">Enviar</button>
                     </form>
                 </section>
             </div>

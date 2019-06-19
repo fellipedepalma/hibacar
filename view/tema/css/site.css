@@ -110,33 +110,44 @@ a{
 }
 .titulo-rodape{
     font-weight: normal;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
     padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 .mapadosite{
     padding: 1rem;
     width: 30%;
-    background: rgba(170, 6, 238, 0.5);
+}
+.mapadosite ul li {
+    margin: 0.5rem 0;
+}
+.mapadosite ul li a{
+    color: white;
 }
 .contatos{
     padding: 1rem;
     width: 30%;
-    background: rgba(170, 6, 238, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+}
+.contatos .fas{
+    padding-right: 0.5rem;
+    color: #aa06ee;
+}
+.contatos p{
+    margin: 0.8rem 0;
 }
 .faleconosco{
     padding: 1rem;
     width: 30%;
     display: flex;
     flex-direction: column;
-    background: rgba(170, 6, 238, 0.5);
 }
 .form-faleconosco{
     display: flex;
     flex-flow: column wrap;
-    background: #aa06ee;
+}
+.form-faleconosco input, .form-faleconosco textarea{
+    padding: .5rem;
+    margin: 0.4rem 0;
 }
 #map {
     height: 100%;
@@ -157,9 +168,57 @@ a{
 }
 .botao-normal:hover{
     border: 2px solid #aa06ee;
-    background-color: #fff;
+    background-color: transparent;
     color: #aa06ee;
 }
+
+.espacador{
+    margin-top: 75px;
+}
+/* MENU CLIENTE */
+.menu__cliente{
+    display: flex;
+}
+.menu__cliente--lista{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1em 0;
+}
+.menu__cliente--item{}
+.menu__cliente--link{
+    color:black;
+    padding: .5em;
+}
+.menu__cliente--link:hover{
+    background: #aa06ee;
+    color: white;
+    transition: ease 1s;
+}
+
+/* PAG CARRINHO */
+.header__carrinho{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    padding: 1em;
+}
+.header__carrinho--esquerda{
+    display: flex;
+    align-items: center;
+}
+.header__carrinho--resultado{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.header__carrinho--direita{
+    display: flex;
+    align-items: center;
+}
+
+
 @media(max-width: 768px){
     .cabecalho{
         width: 100%;

@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Conexao' => $baseDir . '/model/Conexao.class.php',
     'Config' => $baseDir . '/model/Config.class.php',
+    'EnviarEmail' => $baseDir . '/model/EnviarEmail.class.php',
     'Login' => $baseDir . '/model/Login.class.php',
     'Markers' => $baseDir . '/model/Markers.class.php',
     'Oficina' => $baseDir . '/model/Oficina.class.php',

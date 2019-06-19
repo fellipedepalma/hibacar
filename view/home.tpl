@@ -16,17 +16,17 @@
         <div class="cards">
             <div class="card-como-funciona">
                 <h2>PASSO 1</h2>
-                Selecione o Serviço abaixo.
+                Escolha o Serviço abaixo.
             </div>
             <img src="media/imagens/arrow-right.svg" alt="Setas" class="seta">
             <div class="card-como-funciona">
                 <h2>PASSO 2</h2>
-                Card 2
+                Será apresentado um mapa com as oficinas mais próximas.
             </div>
             <img src="media/imagens/arrow-right.svg" alt="Setas" class="seta">
             <div class="card-como-funciona">
                 <h2>PASSO 3</h2>
-                Card 3
+                Agende o serviço e avalie a oficina.
             </div>
         </div>
     </div>
@@ -40,13 +40,13 @@
                 <div class="card-servicos">
                     {*<img src="{$S.serv_img}" alt="{$S.serv_nome}">*}
                     <form action="buscaroficina.php" method="get">
-                        <button type="submit"><h2 class="card-titulo"> {$S.serv_nome}</h2></button>
                         <input type="hidden" value="{$S.serv_id}" name="servico">
+                        <button type="submit" class="card-titulo">
+                            <h2 >{$S.serv_nome}</h2>
+                        </button>
                     </form>
                 </div>
-
             {/foreach}
-
         </div>
     </div>
 </section>
