@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 16-Jun-2019 às 20:33
+-- Generation Time: 19-Jun-2019 às 02:11
 -- Versão do servidor: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -21,6 +21,42 @@ SET time_zone = "+00:00";
 --
 -- Database: `hibacar`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `hcar_forma_pagamento`
+--
+
+CREATE TABLE `hcar_forma_pagamento` (
+  `id_forma_pagto` int(11) DEFAULT NULL,
+  `tipo_forma_pagto` varchar(50) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Extraindo dados da tabela `hcar_forma_pagamento`
+--
+
+INSERT INTO `hcar_forma_pagamento` (`id_forma_pagto`, `tipo_forma_pagto`) VALUES
+(NULL, 'Visa'),
+(NULL, 'Master Card'),
+(NULL, 'Elo'),
+(NULL, 'Amex'),
+(NULL, 'HiperCard'),
+(NULL, 'Boleto'),
+(NULL, 'Débito');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `hcar_ofc_pagto`
+--
+
+CREATE TABLE `hcar_ofc_pagto` (
+  `id_ofc_pagto` int(11) NOT NULL,
+  `id_ofc` int(11) NOT NULL,
+  `id_pagto` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -75,6 +111,7 @@ CREATE TABLE `hcar_oficina` (
   `ofc_bairro` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_cidade` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `ofc_uf` varchar(2) COLLATE utf8_unicode_ci NOT NULL,
+  `ofc_cep` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
   `lat` float(10,6) NOT NULL,
   `lng` float(10,6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -83,12 +120,12 @@ CREATE TABLE `hcar_oficina` (
 -- Extraindo dados da tabela `hcar_oficina`
 --
 
-INSERT INTO `hcar_oficina` (`ofc_id`, `ofc_nome`, `ofc_descricao`, `ofc_logo`, `ofc_email`, `ofc_pass`, `ofc_telefone`, `ofc_celular`, `ofc_site`, `ofc_endereco`, `ofc_numero`, `ofc_complemento`, `ofc_bairro`, `ofc_cidade`, `ofc_uf`, `lat`, `lng`) VALUES
-(1, 'Oficina Senac', 'Realizamos trabalhos como: ...', '', 'oficinasenac@hibacar.com.br', '123456', '1155556666', '1198888777', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', -23.669222, -46.699471),
-(2, 'Oficina Hibacar', 'Realizamos trabalhos como: ...', '', 'hibacar@hibacar.com.br', 'hibacar', '1155554444', '1199999888', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', -23.680651, -46.698891),
-(3, 'Oficina Murilo\'s Car', 'Blá Blá Blá', '-', 'murilo@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', -23.671085, -46.687321),
-(4, 'Oficina Jean\'s Car', 'Blá Blá Blá', '-', 'jean@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', -23.671085, -46.687321),
-(5, '', '		  \r\n		  ', '', 'dfellipe7@gmail.com', 'helo0608@', '', '', '', 'Senac AclimaÃ§Ã£o', '', '', '', '', 'AC', -23.568642, -46.636162);
+INSERT INTO `hcar_oficina` (`ofc_id`, `ofc_nome`, `ofc_descricao`, `ofc_logo`, `ofc_email`, `ofc_pass`, `ofc_telefone`, `ofc_celular`, `ofc_site`, `ofc_endereco`, `ofc_numero`, `ofc_complemento`, `ofc_bairro`, `ofc_cidade`, `ofc_uf`, `ofc_cep`, `lat`, `lng`) VALUES
+(1, 'Oficina Senac', 'Realizamos trabalhos como: ...', '-', 'oficinasenac@hibacar.com.br', '123456', '1155556666', '1198888777', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', '04696100', -23.669222, -46.699471),
+(2, 'Hibacar', 'Realizamos trabalhos como: ...', '-', 'hibacar@hibacar.com.br', 'hibacar', '1155554444', '1199999888', 'https://www.hibacar.com.br', 'Av. Eng. Eusébio Stevaux', '823', '-', 'Santo Amaro', 'São Paulo', 'SP', '04696100', -23.680651, -46.698891),
+(3, 'Murilo\'s Car', 'Blá Blá Blá', 'logo_murilos_car.png', 'murilo@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', '04676080', -23.671085, -46.687321),
+(4, 'Jean\'s Car', 'Blá Blá Blá', '-', 'jean@hibacar.com.br', 'murilo', '1144443333', '1198855667', 'https://www.hibacar.com.br', 'Av. Yervant Kissajikian', '789', '-', 'Vila Sao Pedro', 'São Paulo', 'SP', '04657000', -23.671089, -46.687332),
+(5, 'Fellipe\'s Car', '		  \r\n		  Blá Blá Blá', '-', 'dfellipe7@gmail.com', 'fellipe', '1155556565', '11988777878', 'https://www.hibacar.com.br', 'R. Santo André', '2', '-', 'Jd. Consórcio', 'São Paulo', 'SP', '', -23.568642, -46.636162);
 
 -- --------------------------------------------------------
 
@@ -128,6 +165,12 @@ INSERT INTO `hcar_servicos` (`serv_id`, `serv_nome`, `serv_slug`, `serv_img`) VA
 --
 
 --
+-- Indexes for table `hcar_ofc_pagto`
+--
+ALTER TABLE `hcar_ofc_pagto`
+  ADD PRIMARY KEY (`id_ofc_pagto`);
+
+--
 -- Indexes for table `hcar_ofc_serv`
 --
 ALTER TABLE `hcar_ofc_serv`
@@ -148,6 +191,12 @@ ALTER TABLE `hcar_servicos`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `hcar_ofc_pagto`
+--
+ALTER TABLE `hcar_ofc_pagto`
+  MODIFY `id_ofc_pagto` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `hcar_ofc_serv`
